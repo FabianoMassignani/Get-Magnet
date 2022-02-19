@@ -1,7 +1,13 @@
 const cheerio = require("cheerio");
 const got = require("got");
 
-const info = (url) => {
+/**
+ * @method get magnet from page
+ * @desc Limetorrents and Yts
+ * @returns {function} promise
+ */
+
+const get = (url) => {
   return got(url).then((data) => {
     let $detail = cheerio.load(data.body);
     let $content = cheerio.load($detail.html());
@@ -14,4 +20,5 @@ const info = (url) => {
   });
 };
 
-module.exports.info = info;
+module.exports.get2 = get2;
+module.exports.get = get;
