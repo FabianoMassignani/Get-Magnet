@@ -1,0 +1,23 @@
+{
+  "name": "limetorrents-magnet",
+  "version": "1.0.0",
+  "author": "fabiano massignani",
+  "description": "get magnet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "got": "^9.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiano1606/limetorrents-magnet.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiano1606/limetorrents-magnet/issues"
+  },
+  "homepage": "https://github.com/fabiano1606/limetorrents-magnet#readme"
+}
