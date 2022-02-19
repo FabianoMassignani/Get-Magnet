@@ -20,5 +20,4 @@ const get = (url) => {
   });
 };
 
-module.exports.get2 = get2;
 module.exports.get = get;
