@@ -1,1 +1,1 @@
-Get torrents and play.
+Get torrents magnet links in a page.
